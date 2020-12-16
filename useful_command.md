@@ -64,4 +64,4 @@ yay -P -g
 
 # 清理 yay 缓存
 
-rm-rf~/.cache/yay
+rm -rf ~/.cache/yay
