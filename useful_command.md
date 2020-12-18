@@ -40,7 +40,7 @@ sudo rm /var/lib/systemd/coredump/\*
 
 # 如果开始菜单中所有程序一直闪烁
 
-sudo rm ~/.config/mimeapps.list ~/.config/mimeapps.list_old
+sudo mv ~/.config/mimeapps.list ~/.config/mimeapps.list_old
 
 # 软链接 vim 和 neovim 配置文件
 
