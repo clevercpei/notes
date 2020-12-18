@@ -2,16 +2,6 @@
 
 uname -a
 
-# Nvidia 设置
-
-optirun -b none nvidia-settings -c :8
-
-# bbswitch
-
-cat /proc/acpi/bbswitch
-modprobe bbswitch
-modprobe -r bbswitch
-
 # 显卡驱动状态
 
 inxi -G
