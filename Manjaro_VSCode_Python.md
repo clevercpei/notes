@@ -14,20 +14,24 @@
 
 - conda和shell路径根据实际情况设置
 
-    "editor.fontSize": 18,
-    
-    "workbench.editorAssociations": [],
-    
-    "terminal.integrated.inheritEnv": true,
-    
-    "terminal.integrated.shell.linux": "/bin/fish",
-    
-    "python.condaPath": "/opt/anaconda/bin/",
-    
-    "terminal.external.linuxExec": "alacritty",
-    
-    "terminal.integrated.automationShell.linux": "/bin/fish",
-    
-    "python.envFile": "~/.conda/envs/"
+    `{`
+
+    ​	`"editor.fontSize": 18,`
+
+    ​	`"workbench.editorAssociations": [],`
+
+    ​	`"terminal.integrated.inheritEnv": true,`
+
+    ​	`"terminal.integrated.shell.linux": "/bin/fish",`
+
+    ​	`"python.condaPath": "/opt/anaconda/bin/",`
+
+    ​	`"terminal.external.linuxExec": "alacritty",`
+
+    ​	`"terminal.integrated.automationShell.linux": "/bin/fish",`
+
+    ​	`"python.envFile": "~/.conda/envs/"`
+
+    `}`
 
 - 重启VSCode
