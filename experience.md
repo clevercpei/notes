@@ -105,7 +105,7 @@
 
     修改其中的startup-mode项使其为nvidia。
 
-- 使用`inix -G`命令查看当前显卡设备情况，如果Nvidia显卡启用则此时的nvidia-smi命令和nvidia-settings命令应已有效。可重新启动看能否正常进入桌面。
+- 使用`inxi -G`命令查看当前显卡设备情况，如果Nvidia显卡启用则此时的nvidia-smi命令和nvidia-settings命令应已有效。可重新启动看能否正常进入桌面。
 
 ### 4.利用Live CD处理异常情况
 
